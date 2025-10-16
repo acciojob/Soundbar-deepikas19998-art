@@ -1,48 +1,36 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: system-ui, sans-serif;
-}
-
 body {
-  background-color: #4b3bbf;
-  color: #fff;
-  text-align: center;
-  padding-top: 60px;
-}
-
-h1 {
-  margin-bottom: 40px;
-  font-weight: 600;
+  background-color: #9b4dca; /* Purple background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
 #buttons {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 12px;
+  gap: 10px;
 }
 
-.btn {
-  background-color: #5f4dee;
-  color: #fff;
+.btn, .stop {
+  padding: 10px 20px;
+  font-size: 18px;
   border: none;
-  border-radius: 5px;
-  padding: 12px 18px;
-  font-size: 16px;
   cursor: pointer;
-  transition: background 0.2s ease;
+  border-radius: 5px;
+  background-color: #6a2f91; /* Darker purple */
+  color: white;
+  transition: background-color 0.3s;
 }
 
 .btn:hover {
-  background-color: #7b6bf8;
+  background-color: #4e1e6b; /* Darker hover effect */
 }
 
 .stop {
-  background-color: #e14b4b;
+  background-color: #e63946; /* Red for stop button */
 }
 
 .stop:hover {
-  background-color: #ff6a6a;
+  background-color: #c13d35; /* Darker red for hover */
 }
